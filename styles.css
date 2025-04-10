@@ -1,31 +1,20 @@
-* {
-  margin:0px;
-  padding:0px;
-}
+<!DOCTYPE html>
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Spoon-Knife</title>
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+</head>
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-  color: #333;
-  line-height: 1.5;
-  text-align: center;
-}
+<body>
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
-}
+<img src="forkit.gif" id="octocat" alt="" />
 
-#octocat img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+<!-- Feel free to change this text here -->
+<p>
+  Fork me? Fork you, @octocat!
+</p>
+
+</body>
+</html>
